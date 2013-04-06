@@ -1,0 +1,28 @@
+<language en>
+<table border="0" cellpadding="5" cellspacing="0" width="640">
+
+<tr>
+<td bgcolor=#69E982>
+<font color=#ffffff>
+<b>Matrix Keyboard 4x4</b>
+</tr>
+</td>
+
+<tr>
+<td>
+<font color=#666666>
+This is a simple 4x4 keboard it uses 6mm x 6mm J lead SMD Tactile switches arranged in matrix fashion it only allow pullup inputs, these means, that yu can only sample activationes with low levels.
+<p>
+<img src="model/Matrix_Keyboard.png">
+</td>
+</tr>
+
+<tr>
+<td>
+<font color=#666666>
+
+</td>
+</tr>
+
+</table>
+</language en>
