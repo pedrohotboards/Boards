@@ -1,0 +1,26 @@
+<language en>
+<table border="0" cellpadding="5" cellspacing="0" width="640">
+
+<tr>
+<td bgcolor=#697BE9>
+<font color=#ffffff>
+<b>SPI EEPROM</b>
+</tr>
+</td>
+
+<tr>
+<td>
+<font color=#666666>
+</tr>
+Eeprom board with a 32k version from Microchip, with couplig capacitors and pullups for writ protections, only communications pins are in used, write protection should be perform by software</td>
+<p>
+<img src="model/spi_eeprom.png">
+<tr>
+<td>
+<font color=#666666>
+
+</td>
+</tr>
+
+</table>
+</language en>
