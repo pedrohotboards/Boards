@@ -1,0 +1,34 @@
+<language en>
+<table border="0" cellpadding="5" cellspacing="0" width="640">
+
+<tr>
+<td bgcolor=#69E982>
+<font color=#ffffff>
+<b>Pepper Board Microchip Flavor</b>
+</tr>
+</td>
+
+<tr>
+<td>
+<font color=#666666>
+8-bit base board for rapid prototiping and development, this board include the PIC18F45J50 with 32k Flash and 4k RAM, USB powered, reset and user button, 
+<p>
+Features:<br>
+2 - EUSART<br>
+2 - I2C/SPI<br>
+8 - ADC channels<br>
+4 timers<br>
+<p>
+<img src="model/pepper-8m.png">
+</td>
+</tr>
+
+<tr>
+<td>
+<font color=#666666>
+
+</td>
+</tr>
+
+</table>
+</language en>
