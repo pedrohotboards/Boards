@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2514,7 +2514,28 @@ Ref: &lt;a href="http://katalog.we-online.de/en/em/search/WERI_Steckverbinder/Bo
 <pad name="6" x="12.7" y="0" drill="1.02"/>
 <rectangle x1="12.3825" y1="-0.15875" x2="13.0175" y2="0.15875" layer="51"/>
 </package>
-<package name="PHSP254P6096X254X1154-24S">
+<package name="PHSP254P5842X254X1154-23S">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#E3000B colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;23 Pin Header Straight Post 2.54Pitch&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/headers/PHSP254PS/png/PHSP254P6096X254X1154-24S.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+ 60.96mm L x 2.54mm W x 11.54mm H &lt;br&gt;
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
 <wire x1="-1.27" y1="1.26" x2="-1.27" y2="-1.27" width="0.127" layer="51"/>
 <pad name="1" x="0" y="0" drill="1.1"/>
 <text x="-0.1627" y="1.5596" size="1.016" layer="25" ratio="12">&gt;NAME</text>
@@ -2538,9 +2559,6 @@ Ref: &lt;a href="http://katalog.we-online.de/en/em/search/WERI_Steckverbinder/Bo
 <rectangle x1="20.0025" y1="-0.3175" x2="20.6375" y2="0.3175" layer="51"/>
 <rectangle x1="22.5425" y1="-0.3175" x2="23.1775" y2="0.3175" layer="51"/>
 <pad name="10" x="22.86" y="0" drill="1.1"/>
-<wire x1="-1.27" y1="-1.27" x2="48.26" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="48.26" y1="-1.27" x2="49.53" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="49.53" y1="1.26" x2="-1.27" y2="1.26" width="0.127" layer="51"/>
 <pad name="11" x="25.4" y="0" drill="1.1"/>
 <rectangle x1="25.0825" y1="-0.3175" x2="25.7175" y2="0.3175" layer="51"/>
 <pad name="12" x="27.94" y="0" drill="1.1"/>
@@ -2561,17 +2579,15 @@ Ref: &lt;a href="http://katalog.we-online.de/en/em/search/WERI_Steckverbinder/Bo
 <rectangle x1="45.4025" y1="-0.3175" x2="46.0375" y2="0.3175" layer="51"/>
 <rectangle x1="47.9425" y1="-0.3175" x2="48.5775" y2="0.3175" layer="51"/>
 <pad name="20" x="48.26" y="0" drill="1.1"/>
-<wire x1="59.69" y1="-1.27" x2="59.69" y2="1.27" width="0.127" layer="51"/>
 <pad name="21" x="50.8" y="0" drill="1.1"/>
 <rectangle x1="50.4825" y1="-0.3175" x2="51.1175" y2="0.3175" layer="51"/>
 <pad name="22" x="53.34" y="0" drill="1.1"/>
 <rectangle x1="53.0225" y1="-0.3175" x2="53.6575" y2="0.3175" layer="51"/>
 <pad name="23" x="55.88" y="0" drill="1.1"/>
 <rectangle x1="55.5625" y1="-0.3175" x2="56.1975" y2="0.3175" layer="51"/>
-<pad name="24" x="58.42" y="0" drill="1.1"/>
-<rectangle x1="58.1025" y1="-0.3175" x2="58.7375" y2="0.3175" layer="51"/>
-<wire x1="49.53" y1="1.27" x2="59.69" y2="1.27" width="0.127" layer="51"/>
-<wire x1="59.69" y1="-1.27" x2="49.53" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="57.15" y2="1.27" width="0.127" layer="51"/>
+<wire x1="57.15" y1="1.27" x2="57.15" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="57.15" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -2595,38 +2611,36 @@ Ref: &lt;a href="http://katalog.we-online.de/en/em/search/WERI_Steckverbinder/Bo
 <wire x1="0.643" y1="-5.859" x2="0.643" y2="-4.589" width="0.254" layer="94" curve="-180"/>
 <pin name="6" x="-5.08" y="-5.08" visible="pad" length="middle" direction="pas"/>
 </symbol>
-<symbol name="24S">
-<wire x1="0.643" y1="32.241" x2="0.643" y2="33.511" width="0.254" layer="94" curve="-180"/>
+<symbol name="23S">
 <wire x1="0.643" y1="29.701" x2="0.643" y2="30.971" width="0.254" layer="94" curve="-180"/>
-<text x="-1.77" y="36.305" size="1.27" layer="95">&gt;NAME</text>
-<text x="-3.29" y="-30.25" size="1.27" layer="95">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="33.02" visible="pad" length="middle" direction="pas"/>
-<pin name="2" x="-5.08" y="30.48" visible="pad" length="middle" direction="pas"/>
-<wire x1="-2.54" y1="-27.94" x2="2.54" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="2.54" y1="35.56" x2="-2.54" y2="35.56" width="0.254" layer="94"/>
 <wire x1="0.643" y1="27.161" x2="0.643" y2="28.431" width="0.254" layer="94" curve="-180"/>
-<pin name="3" x="-5.08" y="27.94" visible="pad" length="middle" direction="pas"/>
+<text x="-1.77" y="33.765" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.29" y="-30.25" size="1.27" layer="95">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="30.48" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="27.94" visible="pad" length="middle" direction="pas"/>
+<wire x1="2.54" y1="33.02" x2="-2.54" y2="33.02" width="0.254" layer="94"/>
 <wire x1="0.643" y1="24.621" x2="0.643" y2="25.891" width="0.254" layer="94" curve="-180"/>
-<pin name="4" x="-5.08" y="25.4" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="-5.08" y="25.4" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="22.081" x2="0.643" y2="23.351" width="0.254" layer="94" curve="-180"/>
-<pin name="5" x="-5.08" y="22.86" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="-5.08" y="22.86" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="19.541" x2="0.643" y2="20.811" width="0.254" layer="94" curve="-180"/>
-<pin name="6" x="-5.08" y="20.32" visible="pad" length="middle" direction="pas"/>
+<pin name="5" x="-5.08" y="20.32" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="17.001" x2="0.643" y2="18.271" width="0.254" layer="94" curve="-180"/>
-<pin name="7" x="-5.08" y="17.78" visible="pad" length="middle" direction="pas"/>
+<pin name="6" x="-5.08" y="17.78" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="14.461" x2="0.643" y2="15.731" width="0.254" layer="94" curve="-180"/>
-<pin name="8" x="-5.08" y="15.24" visible="pad" length="middle" direction="pas"/>
+<pin name="7" x="-5.08" y="15.24" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="11.921" x2="0.643" y2="13.191" width="0.254" layer="94" curve="-180"/>
-<pin name="9" x="-5.08" y="12.7" visible="pad" length="middle" direction="pas"/>
+<pin name="8" x="-5.08" y="12.7" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="9.381" x2="0.643" y2="10.651" width="0.254" layer="94" curve="-180"/>
-<pin name="10" x="-5.08" y="10.16" visible="pad" length="middle" direction="pas"/>
-<pin name="11" x="-5.08" y="7.62" visible="pad" length="middle" direction="pas"/>
-<pin name="12" x="-5.08" y="5.08" visible="pad" length="middle" direction="pas"/>
-<pin name="13" x="-5.08" y="2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="14" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
-<pin name="15" x="-5.08" y="-2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="16" x="-5.08" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="9" x="-5.08" y="10.16" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="6.841" x2="0.643" y2="8.111" width="0.254" layer="94" curve="-180"/>
+<pin name="10" x="-5.08" y="7.62" visible="pad" length="middle" direction="pas"/>
+<pin name="11" x="-5.08" y="5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="12" x="-5.08" y="2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="13" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="14" x="-5.08" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="15" x="-5.08" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="16" x="-5.08" y="-7.62" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="4.301" x2="0.643" y2="5.571" width="0.254" layer="94" curve="-180"/>
 <wire x1="0.643" y1="1.761" x2="0.643" y2="3.031" width="0.254" layer="94" curve="-180"/>
 <wire x1="0.643" y1="-0.779" x2="0.643" y2="0.491" width="0.254" layer="94" curve="-180"/>
@@ -2636,20 +2650,20 @@ Ref: &lt;a href="http://katalog.we-online.de/en/em/search/WERI_Steckverbinder/Bo
 <wire x1="0.643" y1="-10.939" x2="0.643" y2="-9.669" width="0.254" layer="94" curve="-180"/>
 <wire x1="0.643" y1="-13.479" x2="0.643" y2="-12.209" width="0.254" layer="94" curve="-180"/>
 <wire x1="0.643" y1="-16.019" x2="0.643" y2="-14.749" width="0.254" layer="94" curve="-180"/>
-<pin name="17" x="-5.08" y="-7.62" visible="pad" length="middle" direction="pas"/>
-<pin name="18" x="-5.08" y="-10.16" visible="pad" length="middle" direction="pas"/>
-<pin name="19" x="-5.08" y="-12.7" visible="pad" length="middle" direction="pas"/>
-<pin name="20" x="-5.08" y="-15.24" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="-18.559" x2="0.643" y2="-17.289" width="0.254" layer="94" curve="-180"/>
+<pin name="17" x="-5.08" y="-10.16" visible="pad" length="middle" direction="pas"/>
+<pin name="18" x="-5.08" y="-12.7" visible="pad" length="middle" direction="pas"/>
+<pin name="19" x="-5.08" y="-15.24" visible="pad" length="middle" direction="pas"/>
+<pin name="20" x="-5.08" y="-17.78" visible="pad" length="middle" direction="pas"/>
 <wire x1="0.643" y1="-21.099" x2="0.643" y2="-19.829" width="0.254" layer="94" curve="-180"/>
 <wire x1="0.643" y1="-23.639" x2="0.643" y2="-22.369" width="0.254" layer="94" curve="-180"/>
 <wire x1="0.643" y1="-26.179" x2="0.643" y2="-24.909" width="0.254" layer="94" curve="-180"/>
-<pin name="21" x="-5.08" y="-17.78" visible="pad" length="middle" direction="pas"/>
-<pin name="22" x="-5.08" y="-20.32" visible="pad" length="middle" direction="pas"/>
-<pin name="23" x="-5.08" y="-22.86" visible="pad" length="middle" direction="pas"/>
-<pin name="24" x="-5.08" y="-25.4" visible="pad" length="middle" direction="pas"/>
-<wire x1="-2.54" y1="35.56" x2="-2.54" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="2.54" y1="35.56" x2="2.54" y2="-27.94" width="0.254" layer="94"/>
+<pin name="21" x="-5.08" y="-20.32" visible="pad" length="middle" direction="pas"/>
+<pin name="22" x="-5.08" y="-22.86" visible="pad" length="middle" direction="pas"/>
+<pin name="23" x="-5.08" y="-25.4" visible="pad" length="middle" direction="pas"/>
+<wire x1="-2.54" y1="33.02" x2="-2.54" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-27.94" x2="2.54" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-27.94" x2="2.54" y2="33.02" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2853,12 +2867,101 @@ from 1 to 40
 </device>
 </devices>
 </deviceset>
-<deviceset name="6130241?" prefix="J" uservalue="yes">
+<deviceset name="6130231?" prefix="J" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#E3000B&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;(23) 2.54mm Pin Header&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#DE6C72&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+MATERIAL
+&lt;ul&gt;
+&lt;li&gt;INSULATOR: PBT
+&lt;li&gt;FLAMABILITY RATING: UL94-V0
+&lt;li&gt;COLOR: BLACK
+&lt;li&gt;CONTACT MATERIAL: COPPER ALLOY
+&lt;li&gt;CONTACT TYPE: STAMPED
+&lt;li&gt;CONTACT PLATING: GOLD
+&lt;li&gt;QUALITY CLASS: 3 AS PER CECC 75 301-802
+&lt;li&gt;PITCH: 2.54MM
+&lt;/ul&gt;
+ENVIRONMENTAL
+&lt;ul&gt;
+&lt;li&gt;OPERATING TEMPERATURE: -40 UP TO 125°C
+&lt;li&gt;COMPLIANCE: LEAD FREE AND ROHS
+&lt;/ul&gt;
+ELECTRICAL
+&lt;ul&gt;
+&lt;li&gt;CURRENT RATING: 3A
+&lt;li&gt;WORKING VOLTAGE: 250V AC
+&lt;li&gt;INSULATOR RESISTANCE: &gt;1000 MOHM
+&lt;li&gt;DIELECTRIC WITHSTANDING VOLTAGE: 500V AC/MN
+&lt;li&gt;CONTACT RESISTANCE: 20 mOHM MAX
+&lt;/ul&gt;
+DIMENSION&lt;br&gt;
+B = 2.54 x NB POSITIONS&lt;p&gt;
+&lt;b&gt;How to order&lt;/b&gt;
+&lt;table border="1" cellpadding="3" cellspacing="0" &gt;
+&lt;tr&gt;
+&lt;th&gt;Type Header/Socket&lt;/th&gt;
+&lt;th&gt;Number of Positions&lt;/th&gt;
+&lt;th&gt;Variation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+613 = 2.54mm Pitch   
+&lt;/td&gt;
+&lt;td&gt;
+from 1 to 40
+&lt;/td&gt;
+&lt;td&gt;
+1121 = Pin Header Straigh Post&lt;br&gt;
+1021 = Pin Header Right Angle&lt;br&gt; 
+1821 = Socket Header Straigh Post&lt;br&gt;
+43121 = Socket Header Right Angle 
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#DE6C72&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref:&lt;/b&gt;
+&lt;a href="http://katalog.we-online.de/em/datasheet/6130xx11121.pdf"&gt;Datasheet&lt;/a&gt; ,
+&lt;a href="http://katalog.we-online.de/em/datasheet/6130xx11021.pdf"&gt;Datasheet&lt;/a&gt; ,
+&lt;a href="http://katalog.we-online.de/em/datasheet/6130xx11821.pdf"&gt;Datasheet&lt;/a&gt; ,
+&lt;a href="http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"&gt;Datasheet&lt;/a&gt; 
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#E3000B&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
 <gates>
-<gate name="G$1" symbol="24S" x="0" y="-5.08"/>
+<gate name="G$1" symbol="23S" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="1121" package="PHSP254P6096X254X1154-24S">
+<device name="1121" package="PHSP254P5842X254X1154-23S">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -2876,7 +2979,6 @@ from 1 to 40
 <connect gate="G$1" pin="21" pad="21"/>
 <connect gate="G$1" pin="22" pad="22"/>
 <connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
@@ -7562,8 +7664,8 @@ I/MS = micro small outline package
 <attribute name="OCTOPART-LINK" value="http://octopart.com/t491a106k016at-kemet-145880"/>
 </part>
 <part name="GND5" library="supply" deviceset="GND" device=""/>
-<part name="J1" library="wurth-pin-socket-headers" deviceset="6130241?" device="1121"/>
-<part name="J2" library="wurth-pin-socket-headers" deviceset="6130241?" device="1121"/>
+<part name="J1" library="wurth-pin-socket-headers" deviceset="6130231?" device="1121"/>
+<part name="J2" library="wurth-pin-socket-headers" deviceset="6130231?" device="1121"/>
 </parts>
 <sheets>
 <sheet>
@@ -7637,8 +7739,8 @@ I/MS = micro small outline package
 <instance part="IC4" gate="G$1" x="170.18" y="60.96"/>
 <instance part="C16" gate="G$1" x="187.96" y="78.74"/>
 <instance part="GND5" gate="1" x="187.96" y="68.58"/>
-<instance part="J1" gate="G$1" x="76.2" y="48.26" rot="R180"/>
-<instance part="J2" gate="G$1" x="106.68" y="48.26" rot="R180"/>
+<instance part="J1" gate="G$1" x="76.2" y="45.72" rot="R180"/>
+<instance part="J2" gate="G$1" x="106.68" y="45.72" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -7910,11 +8012,6 @@ I/MS = micro small outline package
 <pinref part="XT1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
-<label x="58.42" y="20.32" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <wire x1="81.28" y1="15.24" x2="88.9" y2="15.24" width="0.1524" layer="91"/>
 <label x="83.82" y="15.24" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -7925,14 +8022,14 @@ I/MS = micro small outline package
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
-<label x="83.82" y="73.66" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="24"/>
-</segment>
-<segment>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="73.66" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<label x="58.42" y="22.86" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -8005,11 +8102,6 @@ I/MS = micro small outline package
 <pinref part="IC4" gate="G$1" pin="C+"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
-<label x="58.42" y="22.86" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-</segment>
-<segment>
 <wire x1="53.34" y1="170.18" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="172.72" x2="73.66" y2="172.72" width="0.1524" layer="91"/>
@@ -8045,9 +8137,9 @@ I/MS = micro small outline package
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
-<label x="114.3" y="73.66" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="24"/>
+<wire x1="58.42" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<label x="58.42" y="20.32" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="B4" class="0">
