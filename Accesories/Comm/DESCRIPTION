@@ -1,0 +1,35 @@
+<table cellspacing="0" cellpadding="7">
+<tr>
+<td bgcolor=#F902DF>
+<font color=#ffffff><br>
+<h3>Communication Boards</h3>
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#FBAAF2>
+</td>
+</tr>
+
+<tr>
+<td>
+<font color=#666666>
+<br>
+<b>Description</b>
+<p>
+Serial bridges, usb, ethernet modules or some kind of special comunication bus at low speed, also you could find wireless board for comunication puorpose
+<ul>
+<li>USB-UART
+<li>...
+</ul>
+<p>
+
+
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#FBAAF2>
+</td>
+</tr>
+</table>
