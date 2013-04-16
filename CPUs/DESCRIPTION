@@ -1,0 +1,41 @@
+<table cellspacing="0" cellpadding="7">
+<tr>
+<td bgcolor=#000000>
+<font color=#ffffff><br>
+<h3>CPU Boards</h3>
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#616161>
+</td>
+</tr>
+
+<tr>
+<td>
+<font color=#666666>
+<br>
+<b>Description</b>
+<p>
+These boards are compliment for the CPU series, ready for breadboards and easy to combine with project, assembly together to create amazing applicationes in no time
+
+<ul>
+<li>Comunicaciones
+<li>Sensors
+<li>Storage
+<li>Interrupts
+<li>Wireless
+<li>Displays
+<li>...
+</ul>
+<p>
+
+
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#616161>
+</td>
+</tr>
+</table>
