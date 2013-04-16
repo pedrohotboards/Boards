@@ -1,0 +1,35 @@
+<table cellspacing="0" cellpadding="7">
+<tr>
+<td bgcolor=#F9D302>
+<font color=#ffffff><br>
+<h3>Sensors Boards</h3>
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#FBE87E>
+</td>
+</tr>
+
+<tr>
+<td>
+<font color=#666666>
+<br>
+<b>Description</b>
+<p>
+Data converters for the analog wolrd, muts of the time  you wil find sensor with digital interface like I2C, but some board will be equiped with analog sensor, like easy potentiometer, Termopar, etc..
+<ul>
+<li>I2C Temp Sensor
+<li>...
+</ul>
+<p>
+
+
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#FBE87E>
+</td>
+</tr>
+</table>

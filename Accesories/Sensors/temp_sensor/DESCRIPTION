@@ -1,0 +1,24 @@
+<table border="0" cellpadding="5" cellspacing="0" width="640">
+
+<tr>
+<td bgcolor=#FBE87E>
+<font color=#ffffff>
+<b>I2C TEMP SENSOR</b>
+</tr>
+</td>
+
+<tr>
+<td>
+<font color=#666666>
+</tr>
+Eeprom board with a 32k version from Microchip, with couplig capacitors and pullups for writ protections, only communications pins are in used, write protection should be perform by software</td>
+<p>
+<img src="model/temp_sensor.png">
+<tr>
+<td>
+<font color=#666666>
+
+</td>
+</tr>
+
+</table>
