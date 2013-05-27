@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2914,10 +2914,10 @@ Ref: &lt;a href="http://www.e-switch.com/ProductCatalog/tabid/88/entity/tabid/95
 &lt;/tr&gt;
 
 &lt;/table&gt;</description>
-<smd name="1" x="-2.25" y="2.4" dx="1.4" dy="2.8" layer="1"/>
+<smd name="4" x="-2.25" y="2.4" dx="1.4" dy="2.8" layer="1"/>
 <smd name="2" x="2.25" y="2.4" dx="1.4" dy="2.8" layer="1"/>
-<smd name="3" x="2.25" y="-2.4" dx="1.4" dy="2.8" layer="1"/>
-<smd name="4" x="-2.25" y="-2.4" dx="1.4" dy="2.8" layer="1"/>
+<smd name="1" x="2.25" y="-2.4" dx="1.4" dy="2.8" layer="1"/>
+<smd name="3" x="-2.25" y="-2.4" dx="1.4" dy="2.8" layer="1"/>
 <wire x1="-3" y1="3" x2="3" y2="3" width="0.1" layer="51"/>
 <wire x1="3" y1="3" x2="3" y2="-3" width="0.1" layer="51"/>
 <wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
@@ -3096,10 +3096,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="A" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -3120,10 +3120,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="E" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -3144,10 +3144,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="C" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -3168,10 +3168,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="P" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -3192,10 +3192,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="B" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -3216,10 +3216,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="D" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -3240,10 +3240,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="F" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -3256,236 +3256,6 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 <attribute name="EAGLEUP" value="ESW_TACT600X600X700-4J" constant="no"/>
 <attribute name="FUTURE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
-<attribute name="OCTOPART-LINK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="abracon-resonators">
-<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#BDBDBD&gt;
-&lt;font color=#ffffff&gt;
-&lt;b&gt;Resonators&lt;/b&gt;
-&lt;/tr&gt;
-&lt;/td&gt;
-
-&lt;tr&gt;
-&lt;td&gt;
-&lt;font color=#666666&gt;
-Resonators
-Test &amp; Burn-in Sockets SMD Crystals | kHz SMD Crystals | Thru-Hole Crystals | kHz Thru-Hole Crystals | SMD Ceramic Resonators | Surge Protectors | Thru-Hole Ceramic Resonators | SAW Resonators&lt;br&gt;
-&lt;br&gt;
-Ref: &lt;a href="http://www.abracon.com/resonators.htm"&gt;Website&lt;/a&gt;
-&lt;p&gt;
-&lt;b&gt;Components&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;AWSCR-CV
-&lt;/ul&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;</description>
-<packages>
-<package name="CERAMIC740X340-3N">
-<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#414141 colspan="2"&gt;
-&lt;font color=#ffffff&gt;
-&lt;b&gt;Resonator SMD &lt;/b&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;
-&lt;img src="models/RESOSMD/png/ABR_CERAMIC740X340-3N.png" width="240"&gt;
-&lt;/td&gt;
-&lt;td bgcolor=#ffffff&gt;
-&lt;font color=#666666&gt;
-CERAMIC SMD&lt;br&gt; 
-7.4mm L x 3.4mm W x (1.8mm)H&lt;br&gt; 
------------------------------------------------
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;br&gt;</description>
-<smd name="2" x="0" y="0" dx="1.5" dy="4" layer="1"/>
-<smd name="1" x="-2.5" y="0" dx="1.7" dy="4" layer="1"/>
-<smd name="3" x="2.5" y="0" dx="1.7" dy="4" layer="1"/>
-<wire x1="0" y1="1.7" x2="0.3" y2="1.7" width="0.1" layer="51"/>
-<wire x1="0.3" y1="1.7" x2="3.7" y2="1.7" width="0.1" layer="51"/>
-<wire x1="3.7" y1="1.7" x2="3.7" y2="-1.7" width="0.1" layer="51"/>
-<wire x1="3.7" y1="-1.7" x2="-3.7" y2="-1.7" width="0.1" layer="51"/>
-<wire x1="-3.7" y1="-1.7" x2="-3.7" y2="1.7" width="0.1" layer="51"/>
-<wire x1="-3.7" y1="1.7" x2="0" y2="1.7" width="0.1" layer="51"/>
-<rectangle x1="-0.6" y1="-1.7" x2="0.6" y2="1.7" layer="51"/>
-<rectangle x1="-3.1" y1="-1.7" x2="-1.9" y2="1.7" layer="51"/>
-<rectangle x1="1.9" y1="-1.7" x2="3.1" y2="1.7" layer="51"/>
-<wire x1="-3.5" y1="1.7" x2="-3.7" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="-3.7" y1="1.7" x2="-3.7" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="-3.7" y1="-1.7" x2="-3.5" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="-1.5" y1="1.7" x2="-0.9" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="-1.5" y1="-1.7" x2="-0.9" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="0.9" y1="1.7" x2="1.5" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="0.9" y1="-1.7" x2="1.5" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="1.7" x2="3.7" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="3.7" y1="1.7" x2="3.7" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="3.7" y1="-1.7" x2="3.5" y2="-1.7" width="0.1524" layer="21"/>
-<text x="-2" y="2.2" size="1.016" layer="25" ratio="12">&gt;Name</text>
-<text x="-2.1" y="-3.2" size="1.016" layer="27" ratio="12">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="RESONATOR-3PIN">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="2.54" x2="1.778" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.905" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94"/>
-<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="-1.016" y="-3.683" size="0.8636" layer="93">2</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">3</text>
-<pin name="3" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AWSCR-*MGD-C" prefix="XT" uservalue="yes">
-<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#414141&gt;
-&lt;font color=#ffffff&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Built-in capacitance • Low Resonant impedance • 1.84MHz to 8MHz • 7.4 x 3.4 mm&lt;/b&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#BDBDBD&gt;
-&lt;/tr&gt;
-&lt;/td&gt;
-
-&lt;tr&gt;
-&lt;td&gt;
-&lt;font color=#666666&gt;
-&lt;b&gt;Description&lt;/b&gt;
-&lt;p&gt;
-FEATURES: &lt;br&gt;
-• Built-in load capacitors &lt;br&gt;
-• Suitable for RoHS compliant reflow&lt;br&gt;
-• Low cost solution for cost sensitive applications&lt;br&gt;
-• Low resonant impedance
-&lt;p&gt;
-APPLICATIONS:&lt;br&gt;
-• Remote controls, Microprocessor clocks,
- DVD &amp; CD-ROMs, Electric appliances 
-• Consumer electronics
-&lt;p&gt;
-&lt;b&gt;How to Order&lt;/b&gt;
-&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-&lt;tr&gt;
-&lt;th&gt;Cristal&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;AWSCR&lt;/td&gt;
-&lt;td&gt;12.00MGD-C&lt;/td&gt;
-&lt;td&gt;
-Contact ABRACON for Built-in
-Capacitance options&lt;/td&gt;
-&lt;td&gt;Blank: Bulk&lt;br&gt;
-T: Tape &amp; Reel
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/tr&gt;
-&lt;/td&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#BDBDBD&gt;
-&lt;font color=#ffffff&gt;
-&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/AWSCR_MGD.pdf"&gt;Datasheet &lt;/a&gt;
-&lt;/tr&gt;
-&lt;/td&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#414141&gt;
-&lt;font color=#ffffff&gt;
-Add more variants to AWSCR@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
-It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESONATOR-3PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CERAMIC740X340-3N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="12.00">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
-<attribute name="DATASHEET" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
-<attribute name="EAGLEUP" value="CERAMIC740X340-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="ABRACON"/>
-<attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
-<attribute name="OCTOPART-LINK" value="" constant="no"/>
-</technology>
-<technology name="8.00">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
-<attribute name="DATASHEET" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
-<attribute name="EAGLEUP" value="CERAMIC740X340-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="ABRACON"/>
-<attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
-<attribute name="OCTOPART-LINK" value="" constant="no"/>
-</technology>
-<technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
-<attribute name="DATASHEET" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
-<attribute name="EAGLEUP" value="CERAMIC740X340-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="ABRACON"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
@@ -4427,8 +4197,8 @@ Ref: &lt;a href="http://www.bivar.com/Portals/0/Flash/Catalog/Index.html"&gt;Cat
 <wire x1="0.4" y1="0.6" x2="-0.4" y2="0.6" width="0.1524" layer="21"/>
 <wire x1="-0.4" y1="-0.6" x2="0.4" y2="-0.6" width="0.1524" layer="21"/>
 <wire x1="1.8" y1="0.2" x2="1.8" y2="-0.2" width="0.1524" layer="21"/>
-<smd name="1" x="1.1" y="0" dx="1.2" dy="1.2" layer="1"/>
-<smd name="2" x="-1.1" y="0" dx="1.2" dy="1.2" layer="1"/>
+<smd name="1" x="1.1" y="0" dx="1.2" dy="1.3" layer="1"/>
+<smd name="2" x="-1.1" y="0" dx="1.2" dy="1.3" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -5179,6 +4949,203 @@ J - ±5%
 </deviceset>
 </devicesets>
 </library>
+<library name="abracon-resonators">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Resonators&lt;/b&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+Resonators
+Test &amp; Burn-in Sockets SMD Crystals | kHz SMD Crystals | Thru-Hole Crystals | kHz Thru-Hole Crystals | SMD Ceramic Resonators | Surge Protectors | Thru-Hole Ceramic Resonators | SAW Resonators&lt;br&gt;
+&lt;br&gt;
+Ref: &lt;a href="http://www.abracon.com/resonators.htm"&gt;Website&lt;/a&gt;
+&lt;p&gt;
+&lt;b&gt;Components&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;AWSCR-CV
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<packages>
+<package name="CERAMIC460X200-3N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Resonator SMD &lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/osc/RESOSMD/png/CERAMIC460X200-3N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+CERAMIC SMD&lt;br&gt; 
+4.5mm L x 2.0mm W x (1.2mm)H&lt;br&gt; 
+-----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="2" x="0" y="0" dx="2.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="1.5" y="0" dx="2.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.5" y="0" dx="2.6" dy="0.8" layer="1" rot="R90"/>
+<wire x1="0" y1="1" x2="-0.4" y2="1" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="1" x2="-2.3" y2="1" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="-1" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="-1" x2="2.3" y2="-1" width="0.1" layer="51"/>
+<wire x1="2.3" y1="-1" x2="2.3" y2="1" width="0.1" layer="51"/>
+<wire x1="2.3" y1="1" x2="0" y2="1" width="0.1" layer="51"/>
+<wire x1="2" y1="1" x2="2.3" y2="1" width="0.1524" layer="21"/>
+<wire x1="2.3" y1="1" x2="2.3" y2="-1" width="0.1524" layer="21"/>
+<wire x1="2.3" y1="-1" x2="2" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-2" y1="1" x2="-2.3" y2="1" width="0.1524" layer="21"/>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-2.3" y1="-1" x2="-2" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="1" x2="-0.6" y2="1" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="-1" x2="-0.6" y2="-1" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="1" x2="0.9" y2="1" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="-1" x2="0.9" y2="-1" width="0.1524" layer="21"/>
+<text x="-2.2" y="1.6" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.2" y="-2.6" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<rectangle x1="-1.8" y1="-1" x2="-1.2" y2="1" layer="51"/>
+<rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="51"/>
+<rectangle x1="1.2" y1="-1" x2="1.8" y2="1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESONATOR-3PIN">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="1.778" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.905" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="-1.016" y="-3.683" size="0.8636" layer="93">2</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">3</text>
+<pin name="3" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AWSCR-*CR-C" prefix="XT" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;4.5 x 2.0 x 1.2 mm INDUSTRIAL GRADE BUILT-IN 
+CAPACITANCE CERAMIC RESONATOR&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+FEATURES: &lt;br&gt;
+• Low resonant impedance&lt;br&gt;
+• Built-in load capacitors &lt;br&gt;
+• IR reflow capable
+&lt;p&gt;
+APPLICATIONS:&lt;br&gt;
+• Remote controls, Microprocessor clocks,
+ DVD &amp; CD-ROMs, Electric appliances&lt;br&gt;
+• Consumer electronics
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;th&gt;Cristal&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AWSCR&lt;/td&gt;
+&lt;td&gt;12.00CR-C&lt;/td&gt;
+&lt;td&gt;
+Contact ABRACON for Built-in
+Capacitance options&lt;/td&gt;
+&lt;td&gt;Blank: Bulk&lt;br&gt;
+T: Tape &amp; Reel
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/AWSCR_MGD.pdf"&gt;Datasheet &lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to AWSCR@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESONATOR-3PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CERAMIC460X200-3N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="12.00">
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ABRACON"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5216,9 +5183,6 @@ J - ±5%
 <part name="J3" library="wurth-pin-socket-headers" deviceset="6130181?" device="1121"/>
 <part name="SW1" library="esw-tactile-sw" deviceset="TL3301?*J" device="N" technology="F160Q"/>
 <part name="SW2" library="esw-tactile-sw" deviceset="TL3301?*J" device="N" technology="F160Q"/>
-<part name="XT1" library="abracon-resonators" deviceset="AWSCR-*MGD-C" device="" technology="12.00" value="12MHz">
-<attribute name="EAGLEUP" value="CERAMIC740X340-3N"/>
-</part>
 <part name="IC1" library="st-ldos" deviceset="LD1117?*" device="S" technology="33TR">
 <attribute name="EAGLEUP" value="SOT230P700X180-4N"/>
 </part>
@@ -5257,6 +5221,7 @@ J - ±5%
 <part name="R2" library="te-fixed-resistors" deviceset="CRG?*" device="0603" technology="F10K10" value="10k"/>
 <part name="R3" library="te-fixed-resistors" deviceset="CRG?*" device="0603" technology="F390R" value="390"/>
 <part name="R4" library="te-fixed-resistors" deviceset="CRG?*" device="0603" technology="F390R" value="390"/>
+<part name="XT1" library="abracon-resonators" deviceset="AWSCR-*CR-C" device="" technology="12.00" value="12MHz"/>
 </parts>
 <sheets>
 <sheet>
@@ -5273,8 +5238,6 @@ J - ±5%
 <text x="2.54" y="38.1" size="2.54" layer="97">ICD2</text>
 <text x="45.72" y="180.34" size="2.54" layer="97">Coupling Capacitors </text>
 <text x="238.76" y="7.62" size="2.54" layer="94">1.0</text>
-<text x="187.96" y="45.72" size="3.81" layer="98">www.stackblocks.org</text>
-<text x="180.34" y="38.1" size="3.81" layer="98">admin@stackblocks.org</text>
 <text x="149.86" y="25.4" size="2.54" layer="94">for pic18f microcontrollers</text>
 <text x="5.08" y="7.62" size="1.778" layer="98" ratio="12">Not populated</text>
 <wire x1="5.08" y1="35.56" x2="38.1" y2="35.56" width="0.3048" layer="98"/>
@@ -5286,6 +5249,8 @@ J - ±5%
 <wire x1="124.46" y1="45.72" x2="124.46" y2="106.68" width="0.3048" layer="98"/>
 <text x="124.46" y="43.18" size="1.778" layer="98" ratio="12">Not populated</text>
 <text x="81.28" y="132.08" size="2.54" layer="97" ratio="12">Power Led</text>
+<wire x1="124.46" y1="106.68" x2="177.8" y2="106.68" width="0.3048" layer="98"/>
+<text x="193.04" y="38.1" size="3.81" layer="98">www.hotboards.org</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -5314,7 +5279,6 @@ J - ±5%
 <instance part="J3" gate="G$1" x="162.56" y="81.28" rot="R180"/>
 <instance part="SW1" gate="G$1" x="10.16" y="104.14"/>
 <instance part="SW2" gate="G$1" x="48.26" y="101.6"/>
-<instance part="XT1" gate="G$1" x="12.7" y="63.5" rot="R270"/>
 <instance part="IC1" gate="G$1" x="20.32" y="160.02"/>
 <instance part="IC2" gate="G$1" x="132.08" y="149.86"/>
 <instance part="C3" gate="G$1" x="55.88" y="162.56"/>
@@ -5330,6 +5294,7 @@ J - ±5%
 <instance part="R2" gate="G$1" x="48.26" y="116.84" rot="R90"/>
 <instance part="R3" gate="G$1" x="68.58" y="111.76" rot="R90"/>
 <instance part="R4" gate="G$1" x="91.44" y="116.84" rot="R90"/>
+<instance part="XT1" gate="G$1" x="12.7" y="63.5" rot="R270"/>
 </instances>
 <busses>
 </busses>
