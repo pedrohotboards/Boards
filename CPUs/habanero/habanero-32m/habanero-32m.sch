@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2989,236 +2989,6 @@ from 1 to 40
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="abracon-resonators">
-<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#BDBDBD&gt;
-&lt;font color=#ffffff&gt;
-&lt;b&gt;Resonators&lt;/b&gt;
-&lt;/tr&gt;
-&lt;/td&gt;
-
-&lt;tr&gt;
-&lt;td&gt;
-&lt;font color=#666666&gt;
-Resonators
-Test &amp; Burn-in Sockets SMD Crystals | kHz SMD Crystals | Thru-Hole Crystals | kHz Thru-Hole Crystals | SMD Ceramic Resonators | Surge Protectors | Thru-Hole Ceramic Resonators | SAW Resonators&lt;br&gt;
-&lt;br&gt;
-Ref: &lt;a href="http://www.abracon.com/resonators.htm"&gt;Website&lt;/a&gt;
-&lt;p&gt;
-&lt;b&gt;Components&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;AWSCR-CV
-&lt;/ul&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;</description>
-<packages>
-<package name="CERAMIC740X340-3N">
-<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#414141 colspan="2"&gt;
-&lt;font color=#ffffff&gt;
-&lt;b&gt;Resonator SMD &lt;/b&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;
-&lt;img src="models/RESOSMD/png/ABR_CERAMIC740X340-3N.png" width="240"&gt;
-&lt;/td&gt;
-&lt;td bgcolor=#ffffff&gt;
-&lt;font color=#666666&gt;
-CERAMIC SMD&lt;br&gt; 
-7.4mm L x 3.4mm W x (1.8mm)H&lt;br&gt; 
------------------------------------------------
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;br&gt;</description>
-<smd name="2" x="0" y="0" dx="1.5" dy="4" layer="1"/>
-<smd name="1" x="-2.5" y="0" dx="1.7" dy="4" layer="1"/>
-<smd name="3" x="2.5" y="0" dx="1.7" dy="4" layer="1"/>
-<wire x1="0" y1="1.7" x2="0.3" y2="1.7" width="0.1" layer="51"/>
-<wire x1="0.3" y1="1.7" x2="3.7" y2="1.7" width="0.1" layer="51"/>
-<wire x1="3.7" y1="1.7" x2="3.7" y2="-1.7" width="0.1" layer="51"/>
-<wire x1="3.7" y1="-1.7" x2="-3.7" y2="-1.7" width="0.1" layer="51"/>
-<wire x1="-3.7" y1="-1.7" x2="-3.7" y2="1.7" width="0.1" layer="51"/>
-<wire x1="-3.7" y1="1.7" x2="0" y2="1.7" width="0.1" layer="51"/>
-<rectangle x1="-0.6" y1="-1.7" x2="0.6" y2="1.7" layer="51"/>
-<rectangle x1="-3.1" y1="-1.7" x2="-1.9" y2="1.7" layer="51"/>
-<rectangle x1="1.9" y1="-1.7" x2="3.1" y2="1.7" layer="51"/>
-<wire x1="-3.5" y1="1.7" x2="-3.7" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="-3.7" y1="1.7" x2="-3.7" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="-3.7" y1="-1.7" x2="-3.5" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="-1.5" y1="1.7" x2="-0.9" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="-1.5" y1="-1.7" x2="-0.9" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="0.9" y1="1.7" x2="1.5" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="0.9" y1="-1.7" x2="1.5" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="1.7" x2="3.7" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="3.7" y1="1.7" x2="3.7" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="3.7" y1="-1.7" x2="3.5" y2="-1.7" width="0.1524" layer="21"/>
-<text x="-2" y="2.2" size="1.016" layer="25" ratio="12">&gt;Name</text>
-<text x="-2.1" y="-3.2" size="1.016" layer="27" ratio="12">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="RESONATOR-3PIN">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="2.54" x2="1.778" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.905" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94"/>
-<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="-1.016" y="-3.683" size="0.8636" layer="93">2</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">3</text>
-<pin name="3" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AWSCR-*MGD-C" prefix="XT" uservalue="yes">
-<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#414141&gt;
-&lt;font color=#ffffff&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Built-in capacitance • Low Resonant impedance • 1.84MHz to 8MHz • 7.4 x 3.4 mm&lt;/b&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#BDBDBD&gt;
-&lt;/tr&gt;
-&lt;/td&gt;
-
-&lt;tr&gt;
-&lt;td&gt;
-&lt;font color=#666666&gt;
-&lt;b&gt;Description&lt;/b&gt;
-&lt;p&gt;
-FEATURES: &lt;br&gt;
-• Built-in load capacitors &lt;br&gt;
-• Suitable for RoHS compliant reflow&lt;br&gt;
-• Low cost solution for cost sensitive applications&lt;br&gt;
-• Low resonant impedance
-&lt;p&gt;
-APPLICATIONS:&lt;br&gt;
-• Remote controls, Microprocessor clocks,
- DVD &amp; CD-ROMs, Electric appliances 
-• Consumer electronics
-&lt;p&gt;
-&lt;b&gt;How to Order&lt;/b&gt;
-&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-&lt;tr&gt;
-&lt;th&gt;Cristal&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;AWSCR&lt;/td&gt;
-&lt;td&gt;12.00MGD-C&lt;/td&gt;
-&lt;td&gt;
-Contact ABRACON for Built-in
-Capacitance options&lt;/td&gt;
-&lt;td&gt;Blank: Bulk&lt;br&gt;
-T: Tape &amp; Reel
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/tr&gt;
-&lt;/td&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#BDBDBD&gt;
-&lt;font color=#ffffff&gt;
-&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/AWSCR_MGD.pdf"&gt;Datasheet &lt;/a&gt;
-&lt;/tr&gt;
-&lt;/td&gt;
-
-&lt;tr&gt;
-&lt;td bgcolor=#414141&gt;
-&lt;font color=#ffffff&gt;
-Add more variants to AWSCR@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
-It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESONATOR-3PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CERAMIC740X340-3N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="12.00">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
-<attribute name="DATASHEET" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
-<attribute name="EAGLEUP" value="CERAMIC740X340-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="ABRACON"/>
-<attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
-<attribute name="OCTOPART-LINK" value="" constant="no"/>
-</technology>
-<technology name="8.00">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
-<attribute name="DATASHEET" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
-<attribute name="EAGLEUP" value="CERAMIC740X340-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="ABRACON"/>
-<attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
-<attribute name="OCTOPART-LINK" value="" constant="no"/>
-</technology>
-<technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
-<attribute name="DATASHEET" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
-<attribute name="EAGLEUP" value="CERAMIC740X340-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="ABRACON"/>
-<attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
-<attribute name="OCTOPART-LINK" value="" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -7579,6 +7349,203 @@ I/MS = micro small outline package
 </deviceset>
 </devicesets>
 </library>
+<library name="abracon-resonators">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Resonators&lt;/b&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+Resonators
+Test &amp; Burn-in Sockets SMD Crystals | kHz SMD Crystals | Thru-Hole Crystals | kHz Thru-Hole Crystals | SMD Ceramic Resonators | Surge Protectors | Thru-Hole Ceramic Resonators | SAW Resonators&lt;br&gt;
+&lt;br&gt;
+Ref: &lt;a href="http://www.abracon.com/resonators.htm"&gt;Website&lt;/a&gt;
+&lt;p&gt;
+&lt;b&gt;Components&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;AWSCR-CV
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<packages>
+<package name="CERAMIC460X200-3N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Resonator SMD &lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/osc/RESOSMD/png/CERAMIC460X200-3N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+CERAMIC SMD&lt;br&gt; 
+4.5mm L x 2.0mm W x (1.2mm)H&lt;br&gt; 
+-----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="2" x="0" y="0" dx="2.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="1.5" y="0" dx="2.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.5" y="0" dx="2.6" dy="0.8" layer="1" rot="R90"/>
+<wire x1="0" y1="1" x2="-0.4" y2="1" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="1" x2="-2.3" y2="1" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="-1" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="-1" x2="2.3" y2="-1" width="0.1" layer="51"/>
+<wire x1="2.3" y1="-1" x2="2.3" y2="1" width="0.1" layer="51"/>
+<wire x1="2.3" y1="1" x2="0" y2="1" width="0.1" layer="51"/>
+<wire x1="2" y1="1" x2="2.3" y2="1" width="0.1524" layer="21"/>
+<wire x1="2.3" y1="1" x2="2.3" y2="-1" width="0.1524" layer="21"/>
+<wire x1="2.3" y1="-1" x2="2" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-2" y1="1" x2="-2.3" y2="1" width="0.1524" layer="21"/>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-2.3" y1="-1" x2="-2" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="1" x2="-0.6" y2="1" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="-1" x2="-0.6" y2="-1" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="1" x2="0.9" y2="1" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="-1" x2="0.9" y2="-1" width="0.1524" layer="21"/>
+<text x="-2.2" y="1.6" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.2" y="-2.6" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<rectangle x1="-1.8" y1="-1" x2="-1.2" y2="1" layer="51"/>
+<rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="51"/>
+<rectangle x1="1.2" y1="-1" x2="1.8" y2="1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESONATOR-3PIN">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="1.778" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.905" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="-1.016" y="-3.683" size="0.8636" layer="93">2</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">3</text>
+<pin name="3" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AWSCR-*CR-C" prefix="XT" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;4.5 x 2.0 x 1.2 mm INDUSTRIAL GRADE BUILT-IN 
+CAPACITANCE CERAMIC RESONATOR&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+FEATURES: &lt;br&gt;
+• Low resonant impedance&lt;br&gt;
+• Built-in load capacitors &lt;br&gt;
+• IR reflow capable
+&lt;p&gt;
+APPLICATIONS:&lt;br&gt;
+• Remote controls, Microprocessor clocks,
+ DVD &amp; CD-ROMs, Electric appliances&lt;br&gt;
+• Consumer electronics
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;th&gt;Cristal&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AWSCR&lt;/td&gt;
+&lt;td&gt;12.00CR-C&lt;/td&gt;
+&lt;td&gt;
+Contact ABRACON for Built-in
+Capacitance options&lt;/td&gt;
+&lt;td&gt;Blank: Bulk&lt;br&gt;
+T: Tape &amp; Reel
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/AWSCR_MGD.pdf"&gt;Datasheet &lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to AWSCR@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESONATOR-3PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CERAMIC460X200-3N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="12.00">
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ABRACON"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7609,7 +7576,6 @@ I/MS = micro small outline package
 <part name="GND20" library="supply" deviceset="GND" device=""/>
 <part name="GND21" library="supply" deviceset="GND" device=""/>
 <part name="J3" library="wurth-pin-socket-headers" deviceset="6130061?" device="1121"/>
-<part name="XT1" library="abracon-resonators" deviceset="AWSCR-*MGD-C" device="" technology="8.00" value="8MHz"/>
 <part name="XT2" library="abracon-crystals" deviceset="ABS07-120-32.768KHZ-T" device="" value="32.768"/>
 <part name="SW1" library="esw-tactile-sw" deviceset="TL3301?*J" device="N" technology="F160Q"/>
 <part name="SW2" library="esw-tactile-sw" deviceset="TL3301?*J" device="N" technology="F160Q"/>
@@ -7666,6 +7632,7 @@ I/MS = micro small outline package
 <part name="GND5" library="supply" deviceset="GND" device=""/>
 <part name="J1" library="wurth-pin-socket-headers" deviceset="6130231?" device="1121"/>
 <part name="J2" library="wurth-pin-socket-headers" deviceset="6130231?" device="1121"/>
+<part name="XT1" library="abracon-resonators" deviceset="AWSCR-*CR-C" device="" technology="12.00"/>
 </parts>
 <sheets>
 <sheet>
@@ -7703,7 +7670,6 @@ I/MS = micro small outline package
 <instance part="GND20" gate="1" x="12.7" y="50.8"/>
 <instance part="GND21" gate="1" x="22.86" y="17.78"/>
 <instance part="J3" gate="G$1" x="53.34" y="25.4" rot="R180"/>
-<instance part="XT1" gate="G$1" x="22.86" y="27.94"/>
 <instance part="XT2" gate="G$1" x="30.48" y="63.5" rot="R90"/>
 <instance part="SW1" gate="G$1" x="10.16" y="109.22"/>
 <instance part="SW2" gate="G$1" x="48.26" y="106.68"/>
@@ -7741,6 +7707,7 @@ I/MS = micro small outline package
 <instance part="GND5" gate="1" x="187.96" y="68.58"/>
 <instance part="J1" gate="G$1" x="76.2" y="45.72" rot="R180"/>
 <instance part="J2" gate="G$1" x="106.68" y="45.72" rot="R180"/>
+<instance part="XT1" gate="G$1" x="22.86" y="27.94"/>
 </instances>
 <busses>
 </busses>
